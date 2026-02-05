@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: oci://ghcr.io/alaaibrahim2/httpd
     chart: httpd
-    targetRevision: 0.2.0
+    targetRevision: 0.3.0
     helm:
       releaseName: httpd-release
 
