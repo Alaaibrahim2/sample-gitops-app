@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: oci://ghcr.io/alaaibrahim2
+    repoURL: oci://ghcr.io/alaaibrahim2/httpd
     chart: httpd
     targetRevision: 0.2.0
     helm:
