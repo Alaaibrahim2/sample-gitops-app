@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: httpd
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    repoURL: oci://ghcr.io/alaaibrahim2
+    chart: httpd
+    targetRevision: 0.1.0
+    helm:
+      releaseName: httpd-release
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+
