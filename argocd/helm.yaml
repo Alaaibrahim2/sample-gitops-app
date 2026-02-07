@@ -11,7 +11,7 @@ spec:
     targetRevision: main
     path: httpd
     helm:
-      releaseName: httpd
+      releaseName: httpds
 
   destination:
     server: https://kubernetes.default.svc
