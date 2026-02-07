@@ -5,3 +5,4 @@ log {
 }
 root * /usr/share/caddy
 file_server
+

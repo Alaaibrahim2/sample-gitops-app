@@ -8,7 +8,8 @@ resources:
 
 configMapGenerator:
 - name: caddy-config
-    files:
+  files:
     - Caddyfile
 
 namespace: default
+
