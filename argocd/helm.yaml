@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Alaaibrahim2/sample-gitops-app.git
     targetRevision: main
-    path: httpd
+    path: httpd/templates
     helm:
       releaseName: httpds
 
